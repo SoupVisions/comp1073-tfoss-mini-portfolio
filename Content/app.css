@@ -46,12 +46,13 @@ a:visited {
 ====================== */
 .navbar {
 	margin-top: 1px;
-	padding-top: 1px;
+	padding-top: 12px;
 	border-radius: 0;
 	color: #f5f4e6 !important;  
 	background: #cb4a1d;
-	border-bottom: 2px solid orangered;
+	border-bottom: 2px solid transparent;
 	height: 141px;
+	box-shadow: none;
 }
 
 /* navbar-brand css for an image */
@@ -115,7 +116,7 @@ header section {
 	font-family: bahiana-regular, sans-serif;
 	font-size: 1em;
 	padding: 10px;
-	background-image: url(../img/dark-canvas-tile.png);
+	background-image: url(images/dark-canvas-tile.png);
 	border-top: 2px solid orangered;
 	border-bottom: 2px solid orangered;
 	line-height: 110px;
