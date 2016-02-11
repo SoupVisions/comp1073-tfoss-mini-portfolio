@@ -27,7 +27,7 @@ body {
 	position: relative;
 	background: #cb4a1d;
 	/*background: #4F6EB8;*/
-	background-image: url(../img/dark-canvas-tile.png);
+	background-image: url(images/dark-canvas-tile.png);
 	color: #f5f4e6;
 	line-height: 2.1;
 	font-size: 1.3em;
