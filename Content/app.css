@@ -32,9 +32,10 @@ a:visited {
 	color: #f5f4e6 !important;  
 	background: #cb4a1d; 
 	border-bottom: none;
+	box-shadow: none;
 }
 
-.navbar-brand {
+/*.navbar-brand {
 	padding-top: 12px;
 	color: #f5f4e6 !important; 
 	font-family: bahiana-regular, sans-serif;
@@ -44,11 +45,16 @@ a:visited {
 	-o-transform: rotate(-2deg);
 	-ms-transform: rotate(-2deg);
 	transform: rotate(-2deg);
-}
+}*/
 
 .navbar-brand img {
 	width: 136px;
-	height: 25px;
+	margin-top: -45px;
+	-moz-transform: rotate(-3deg);
+	-webkit-transform: rotate(-3deg);
+	-o-transform: rotate(-3deg);
+	-ms-transform: rotate(-3deg);
+	transform: rotate(-3deg);
 }
 
 .navbar-nav {
