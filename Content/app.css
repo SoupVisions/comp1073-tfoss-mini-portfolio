@@ -142,6 +142,7 @@ body {
 .nav a {
 	color: #f5f4e6 !important; 
 	font-size: 2em; 
+	text-shadow: 2px 2px 2px #222;
 }
 
 ul li.active {
@@ -253,6 +254,35 @@ ul li.active {
 -o-transform: rotate(1deg) translateY(2px) skewY(1deg);
 -ms-transform: rotate(1deg) translateY(2px) skewY(1deg);
 transform: rotate(1deg) translateY(2px) skewY(1deg);
+}
+
+.jumbotron .col-md-8 section {
+	position: relative;
+	clear: both;
+	color: #d6d6d6;
+}
+
+.jumbotron .col-md-8 section h2 {
+	font-family: 'Bahiana', helevetica, sans-serif;
+	font-size: 4em;
+	padding-top: 25px;
+	text-align: center;
+	text-shadow: 2px 2px 2px #222;
+	-moz-transform: rotate(4deg);
+	-webkit-transform: rotate(4deg);
+	-o-transform: rotate(4deg);
+	-ms-transform: rotate(4deg);
+	transform: rotate(4deg);
+}
+
+.jumbotron .col-md-8 section p {
+	text-align: center;
+	-moz-transform: rotate(4deg);
+	-webkit-transform: rotate(4deg);
+	-o-transform: rotate(4deg);
+	-ms-transform: rotate(4deg);
+	transform: rotate(4deg);
+	
 }
 
 /* End jumbotron */
