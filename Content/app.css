@@ -23,6 +23,7 @@ body {
 	background-image: url(images/dark-canvas-tile.png);
 	color: #f5f4e6;
 	line-height: 2.1;
+	font-family: nunito, helevetica, sans-serif;
 	font-size: 1.3em;	
 }
 	
@@ -58,19 +59,19 @@ body {
 }
 
 /* navbar-brand css for a font text */
-.navbar-brand span  {
+.navbar-brand h1 span  {
 	position: relative;
 	display: block;
-	margin-top: -10px;
+	margin-top: -20px;
 	margin-left: 2%;
 	/*margin-left: -2px;*/
 	padding-top: 0;
 	padding-left: 0;
 	color: #893315 !important; 
 	font-family:  bahiana-regular, sans-serif;
-	font-size: 2em;
+	font-size: 1em;
 	width: 100%;
-	line-height: 2.5;
+	line-height: 2;
 	-moz-transform: rotate(2deg);
 	-webkit-transform: rotate(2deg);
 	-o-transform: rotate(2deg);
@@ -146,7 +147,6 @@ body {
 ul li.active {
 	outline: 1px solid orangered;
 }
-
 /* End header and nav */
 
 /* Jumbotron
@@ -288,10 +288,9 @@ transform: rotate(1deg) translateY(2px) skewY(1deg);
 	}
 	
 /* navbar-brand css for a font text */
-.navbar-brand span  {
-	margin-left: 5px;
-	padding-top: 6px;
-	font-size: 1.8em;
+.navbar-brand h1 span  {
+	padding-top: 4px;
+	font-size: 0.9em;
 	width: 100%;
 	-moz-transform: rotate(0deg);
 	-webkit-transform: rotate(0deg);
@@ -326,7 +325,7 @@ transform: rotate(1deg) translateY(2px) skewY(1deg);
 	 }
 	 
 	  @media (max-width: 767px) {
-		  .navbar-brand span {
+		  .navbar-brand h1 span {
 			 width: 160px;
 			 margin-left: -14px;
 		 }
