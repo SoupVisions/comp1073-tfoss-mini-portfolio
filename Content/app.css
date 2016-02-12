@@ -109,19 +109,26 @@ body {
 }
 
 .navbar-right {
+	/*box-shadow: 1px 1px 1px 1px rgba(0,0,0, .1);
+	-webkit-box-shadow: 1px 1px 1px 1px rgba(0,0,0, .1);*/
+}
+
+/* Full-width navbar area */
+.navbar-default {
+	background: #cb4a1d;
+	border-radius: 8px;
 	box-shadow: 1px 1px 1px 1px rgba(0,0,0, .1);
+	-webkit-box-shadow: 1px 1px 1px 1px rgba(0,0,0, .1);
 }
 
 .container-fluid {
-	background: #cb4a1d;
-	/*background: #4F6EB8;*/
-	background-image: url(images/dark-canvas-tile.png);
+	
 }
 
 .navbar-header {
 	background: #cb4a1d;
 	/*background: #4F6EB8;*/
-	background-image: url(images/dark-canvas-tile.png);
+	/*background-image: url(images/dark-canvas-tile.png);*/
 	border: none;
 }
 
