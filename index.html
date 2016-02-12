@@ -15,8 +15,8 @@
 </head>
 
 <body>
-	<header>
-		<div class="container">
+	<!-- container for entire page -->
+	<div class="container">
 		<header class="page-header">
 			<nav class="navbar navbar-default">
 				<div class="container-fluid">
@@ -45,67 +45,78 @@
 				</div>
 				<!-- end .container-fluid -->
 			</nav>
-	</header>
-		
+		</header>
+
 		<!--Main container-->
-		<main id="home" class="container">
-		
-		<section class="jumbotron">
+		<main>
 			<!--Jumbotron-->
-			<div class="container">
-				<div class="jumbotron-row">
+			<section class="jumbotron">
+				
+				<!-- Container within jumbotron -->
+				<div class="container">
+					
+					<div class="jumbotron-row">
 						<div class="tagline">
 							<div class="overlay-orange"></div>
 							<img src="Content/images/tagline.svg" />
 						</div>
-				</div><!--End row-->
-				<!--New row-->
-				<div class="jumbotron-row">
-					<div class="col-md-4">
-						<h1><span>\ </span>100%<span> / </span>Unnatural</h1>
-						<p class="lead">Design, Development, &amp; Maintenance</p>
 					</div>
-					<!--End jumbotron 1st column-->
+					<!--End row-->
+					
+					<!--New row-->
+					<div class="jumbotron-row">
+						<div class="col-md-4">
+							<h1><span>\ </span>100%<span> / </span>Unnatural</h1>
+							<p class="lead">Design, Development, &amp; Maintenance</p>
+						</div>
+						<!--End jumbotron 1st column-->
 
-				  <div class="col-md-8">
-						<figure>
-						<div class="overlay-reddish"></div>
-						<img src="Content/images/ted.jpg" />
-						</figure>
+						<!-- Jumbotron 2nd column -->
+						<div class="col-md-8">
+							<figure>
+								<div class="overlay-reddish"></div>
+								<img src="Content/images/ted.jpg" />
+							</figure>
+							<!--End jumbotron 2nd column-->
+						</div>
+
+						<!--End Jumbotron row-->
+						</div>	
 						
+						<!--End container within Jumbotron-->
 					</div>
-					<!--End jumbotron 2nd column-->
 
-				</section>
-				<!--End Jumbotron row-->
+			<!-- End jumbotron section-->
+			</section>
+
+			<div class="social-media">
+				<a href="https://ca.linkedin.com/in/theodorefoss"><i class="fa fa-linkedin"></i></a>
+				<!-- End social media -->
 			</div>
-			<!--End container within Jumbotron-->
-				<div class="social-media">
-			 <a href="https://ca.linkedin.com/in/theodorefoss"><i class="fa fa-linkedin"></i></a>
-			</div><!-- End social media -->
-		</main><!--End Jumbotron container -->
-		
-				
-				
-				
-				
-				
-				
-		
-			
-			
-				
-				
-				
-				
-			
 
-	
-	<!-- end .container -->
-	<!-- JavaScript Section -->
-	<script src="Scripts/lib/jquery-2.2.0.min.js"></script>
-	<script src="Scripts/lib/bootstrap.min.js"></script>
-	<script src="Scripts/app.js"></script>
+		</main>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		<!-- end .container -->
+		<!-- JavaScript Section -->
+		<script src="Scripts/lib/jquery-2.2.0.min.js"></script>
+		<script src="Scripts/lib/bootstrap.min.js"></script>
+		<script src="Scripts/app.js"></script>
 </body>
 
 </html>
