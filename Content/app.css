@@ -246,6 +246,45 @@ ul li.active {
 transform: rotate(1deg) translateY(2px) skewY(1deg);
 }
 
-
-
 /* End jumbotron */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* =================
+	Media Queries
+   ================= */
+   
+   @media (max-width: 1200px) {
+	   
+	.jumbotron .container {
+		width: 98%;
+	}
+
+	.jumbotron h3 {
+		font-size: 6em;
+	}
+
+	 @media (max-width: 993px) {
+		 
+		 .jumbotron h3 {
+			 margin-top: 35px;
+		 }
+		 p.lead {
+			 margin-bottom: 45px;
+			 text-align: center;
+		 }
+	   
+	 }
+	
+}
