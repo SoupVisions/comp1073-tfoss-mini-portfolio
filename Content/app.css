@@ -14,3 +14,7 @@
 	src: url('../fonts/nameless-harbour.ttf');
 }
 
+.navbar-brand img {
+	width: 100px;
+	margin-top: -30px;
+}
