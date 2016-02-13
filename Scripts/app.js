@@ -12,8 +12,10 @@
 	============== */
 	
 	function insertSiteTitle() {
+		
 		var siteTitle = document.getElementById("site-title");
 		siteTitle.innerHTML = "Theodore F. Foss";
+		
 	}
 	insertSiteTitle();
 	
@@ -32,10 +34,22 @@
 	
 	/* About Me Page
 	================= */
+	
+	function insertLead() {
+		
+		var leadHeading_A = document.getElementById("lead-heading-a");
+		leadHeading_A.innerHTML = "100%";
+		
+		var leadHeading_B = document.getElementById("lead-heading-b");
+		leadHeading_B.innerHTML = "Unnatural";
+	}
+	insertLead();
 
 	function insertMissionStatement() {
+		
 		var missionStatementHeading = document.getElementById("mission-statement-heading");
 		missionStatementHeading.innerHTML = "Mission Statement";
+		
 		var missionStatement = document.getElementById("mission-statement-paragraph");
 		missionStatement.innerHTML = "I make you nice website. You pay me.";	
 	}
