@@ -36,7 +36,7 @@
 							<div class="navbar-brand">
 								<a href="index.html" title="To home"><h1><span id="site-title"></span></h1></a>
 							</div>
-						<!-- End navbar-brand-container -->
+							<!-- End navbar-brand-container -->
 						</div>
 
 					</div>
@@ -45,9 +45,15 @@
 					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 
 						<ul class="nav navbar-nav navbar-right">
-							<li><a href="index.html" id="menu-about"></a></li>
-							<li><a href="portfolio.html" id="menu-portfolio"></a></li>
-							<li class="active"><a href="contact.html" id="menu-contact"></a></li>
+							<li>
+								<a href="index.html" id="menu-about"></a>
+							</li>
+							<li>
+								<a href="portfolio.html" id="menu-portfolio"></a>
+							</li>
+							<li class="active">
+								<a href="contact.html" id="menu-contact"></a>
+							</li>
 						</ul>
 					</div>
 					<!-- end .navbar-collapse -->
@@ -55,74 +61,69 @@
 				<!-- end .container-fluid -->
 			</nav>
 		</header>
-		
-		
+
+
 		<main>
-		<!--Contact-->
+			<!--Contact-->
 
-		<div id="contact" class="row">
-			<div class="container">
+			<div class="contact">
+				<div class="container">
 
-				<h2>Contact</h2>
-<!-- contact form -->
-				<div class="form-wrapper">
-					
-					
-					<fieldset>
-						<form action="" method="post">
-							<ol>
-								<li>
-									
-									<label for="name">Name:</label>
-								</li>
-								<li>
-									<input id="name" name="name" type="text" value="" />
-								</li>
+					<h2>Contact</h2>
+					<!-- contact form -->
+					<div class="form-wrapper">
 
-								<li>
-									
-									<label for="email">Email:</label>
-								</li>
-								<li>
-									<input id="email" name="email" type="text" value="" />
-								</li>
-								<li>
-									
-									<label for="message">Message:</label>
-								</li>
-								<li>
-									<textarea id="message" name="message" rows="6"></textarea>
-								</li>
-								<li>
-									<button type="submit"><a href="index.html" title="Back to home page">Send</a></button>
-								</li>
-								<li>&nbsp;</li>
-								<li><a href="mailto:theodore.foss@mygeorgian.ca">theodore.foss@mygeorgian.ca</a>
-								</li>
-								<li>
-									<a class="social-icon" href="https://ca.linkedin.com/in/theodorefoss"><i class="fa fa-linkedin fa-2x"></i></a>
-								</li>
-							</ol>
-						</form>
-					</fieldset>
-
+						<fieldset>
+							<form action="index.html" method="post">
+								<ol>
+									<li>
+										<label for="name">Name:</label>
+									</li>
+									<li>
+										<input id="name" name="name" required />
+									</li>
+									<li>
+										<label for="email">Email:</label>
+									</li>
+									<li>
+										<input id="email" name="email" type="email" required />
+									</li>
+									<li>
+										<label for="message">Message:</label>
+									</li>
+									<li>
+										<textarea id="message" name="message" rows="6" required></textarea>
+									</li>
+									<li>
+										<button type="submit">Send</button>
+									</li>
+									<li>&nbsp;</li>
+									<li><a href="mailto:theodore.foss@mygeorgian.ca">theodore.foss@mygeorgian.ca</a>
+									</li>
+									<li>
+										<a class="social-icon" href="https://ca.linkedin.com"><i class="fa fa-linkedin fa-2x"></i></a>
+									</li>
+								</ol>
+							</form>
+						</fieldset>
+					</div>
+					<!-- end contact form -->
 				</div>
-				<!-- end contact form -->
+				<!--End Contact row container-->
 			</div>
-			<!--End Contact row container-->
-		</div>
-		<!--End Contact-->
+			<!--End Contact-->
 
 
 		</main>
 
-	<!-- End page container -->
+		<!-- End page container -->
 	</div>
-	
-	
+
+
 	<!-- JavaScript Section -->
-		<script src="Scripts/lib/jquery-2.2.0.min.js"></script>
-		<script src="Scripts/lib/bootstrap.min.js"></script>
-		<script src="Scripts/app.js"></script>
+	<script src="Scripts/lib/jquery-2.2.0.min.js"></script>
+	<script src="Scripts/lib/bootstrap.min.js"></script>
+	<script src="Scripts/menu.js"></script>
 </body>
+
 </html>

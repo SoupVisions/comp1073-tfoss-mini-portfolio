@@ -26,10 +26,6 @@ body {
 	font-family: nunito, helevetica, sans-serif;
 	font-size: 1.3em;	
 }
-
-.container {
-	border: 5px solid #222;
-}
 	
 /* Header and Nav
 ==================== */
@@ -72,7 +68,7 @@ body {
 	padding-top: 0;
 	padding-left: 0;
 	color: #893315 !important; 
-	font-family:  bahiana-regular, sans-serif;
+	font-family:  'bahiana', sans-serif;
 	font-size: 1em;
 	width: 100%;
 	line-height: 2;
@@ -106,7 +102,7 @@ body {
 	font-family: bahiana-regular, sans-serif;
 	font-size: 0.8em;
 	padding: 10px;
-	background-image: url(/images/dark-canvas-tile.png);
+	/*background-image: url(images/dark-canvas-tile.png);*/
 	/*border-top: 2px solid orangered;
 	border-bottom: 2px solid orangered;*/
 	line-height: 110px;
@@ -229,8 +225,6 @@ ul li.active {
 	background: linear-gradient(to bottom, rgba(203, 74, 29, 0.15), rgba(203, 74, 29, 0.6), rgba(203, 74, 29, 0.7) );
 }
 
-
-
 /* bio img gradiated overlay */
 .overlay-reddish {
 	position: absolute;
@@ -304,7 +298,7 @@ transform: rotate(1deg) translateY(2px) skewY(1deg);
 =================== */
 
 
-img.preview {
+.preview {
 	display: block;
 	margin: 0 auto;
 	width: 100%;
@@ -318,39 +312,39 @@ img.preview {
 	transition-delay: initial;
 }
 
-img.preview:hover {
+.preview:hover {
 	border: 10px double #fff;
 	border-radius: 50%;
 }
 
-#portfolio {
+.portfolio {
 	color: #f5f4e6;
 	display: inline-block;
 	margin-bottom: 25px;
 }
 
-#portfolio div,
-#portfolio h4 {
+.portfolio div,
+.portfolio h4 {
 	color: #f5f4e6;
 	display: block;
 	margin: 25px auto;
 }
 
-#portfolio div a {
+.portfolio div a {
 	color: #f5f4e6;
 }
 
-#portfolio div a:hover {
+.portfolio div a:hover {
 	color: #fff;
 	text-decoration: none;
 }
 
-#portfolio div {
+.portfolio div {
 	min-height: 500px;
 	background: transparent;
 }
 
-#portfolio div ol {
+.portfolio div ol {
 	position: relative;
 	left: 0;
 	right: 0;
@@ -360,11 +354,11 @@ img.preview:hover {
 	margin: 0 auto;
 }
 
-#portfolio div a h4 {
+.portfolio div a h4 {
 	text-align: center;
 }
 
-#portfolio div a ol li {
+.portfolio div a ol li {
 	display: inline;
 	list-style-type: none;
 }
@@ -375,7 +369,101 @@ img.preview:hover {
 /* end portfolio page */
 
 
+/* Contact
+=================== */
+ol {
+	margin: 0;
+	padding: 0;
+}
 
+.contact {
+	color: #f5f4e6;
+}
+
+.contact .form-wrapper {
+	background: transparent;
+	padding: 3%;
+}
+
+fieldset {
+	border: 1px solid #fff;
+}
+
+.contact .form-wrapper input,
+.contact .form-wrapper textarea {
+	width: 90%;
+	max-width: 600px;
+}
+
+.contact .form-wrapper input:focus,
+.contact .form-wrapper textarea:focus {
+	outline: 1px solid #fff;
+}
+
+.contact .form-wrapper button {
+	width: 40%;
+	max-width: 200px;
+	background: transparent;
+}
+
+.contact .form-wrapper button:hover {
+	background: rgba(19, 83, 179, 0.8);
+}
+
+.contact .form-wrapper button:active {
+	background: orangered;
+}
+
+.contact form {
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+	padding: 2%;
+}
+
+.contact form ol li {
+	list-style-type: none;
+	margin-bottom: 20px;
+}
+
+.contact a {
+	color: #f5f4e6;
+	border-bottom: 1px dotted;
+	text-decoration: none;
+}
+
+.contact button {
+	border: 1px solid #fff;
+	outline: none;
+}
+
+.contact button a {
+	border-bottom: none;
+}
+
+.contact a:hover {
+	color: #fff;
+}
+
+.contact form input,
+textarea {
+	background: #cb4a1d;
+	border: 1px solid #f5f4e6;
+}
+
+.contact {
+	background-color: transparent;
+}
+
+.contact a.social-icon {
+	border-bottom: none;
+}
+
+.fa-linkedin {
+	border-bottom: 5px solid;
+}
+
+/* End Contact */
 
 
 
