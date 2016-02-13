@@ -31,7 +31,6 @@
 	}
 	insertMenuItems();
 	
-	
 	/* About Me Page
 	================= */
 	
@@ -51,11 +50,12 @@
 		missionStatementHeading.innerHTML = "Mission Statement";
 		
 		var missionStatement = document.getElementById("mission-statement-paragraph");
-		missionStatement.innerHTML = "I make you nice website. You pay me.";	
+		missionStatement.innerHTML = "I make you a nice website. You pay me.";	
 	}
 	insertMissionStatement();
 	
-	
+	/* Portfolio Page
+	================== */
 	
 	
 	

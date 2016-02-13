@@ -300,6 +300,85 @@ transform: rotate(1deg) translateY(2px) skewY(1deg);
 
 
 
+/* Portfolio Page 
+=================== */
+
+
+img.preview {
+	display: block;
+	margin: 0 auto;
+	width: 100%;
+	height: 100%;
+	max-width: 280px;
+	max-height: 280px;
+	border: 4px solid #fff;
+	transition-property: all;
+	transition-duration: 0.5s;
+	transition-timing-function: ease;
+	transition-delay: initial;
+}
+
+img.preview:hover {
+	border: 10px double #fff;
+	border-radius: 50%;
+}
+
+#portfolio {
+	color: #f5f4e6;
+	display: inline-block;
+	margin-bottom: 25px;
+}
+
+#portfolio div,
+#portfolio h4 {
+	color: #f5f4e6;
+	display: block;
+	margin: 25px auto;
+}
+
+#portfolio div a {
+	color: #f5f4e6;
+}
+
+#portfolio div a:hover {
+	color: #fff;
+	text-decoration: none;
+}
+
+#portfolio div {
+	min-height: 500px;
+	background: transparent;
+}
+
+#portfolio div ol {
+	position: relative;
+	left: 0;
+	right: 0;
+	line-height: 1.5;
+	max-width: 280px;
+	text-align: left;
+	margin: 0 auto;
+}
+
+#portfolio div a h4 {
+	text-align: center;
+}
+
+#portfolio div a ol li {
+	display: inline;
+	list-style-type: none;
+}
+
+.dotted-link {
+	border-bottom: 1px dotted;
+}
+/* end portfolio page */
+
+
+
+
+
+
 
 
 
