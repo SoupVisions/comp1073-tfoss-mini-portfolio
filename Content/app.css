@@ -26,6 +26,10 @@ body {
 	font-family: nunito, helevetica, sans-serif;
 	font-size: 1.3em;	
 }
+
+.container {
+	border: 5px solid #222;
+}
 	
 /* Header and Nav
 ==================== */

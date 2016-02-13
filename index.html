@@ -34,9 +34,9 @@
 								<div class="overlay-orange"></div>
 								<img src="Content/images/tf-block-logo.svg" alt="T.F."></a>
 							<div class="navbar-brand">
-								<a href="index.html" title="To home"><h1><span>Theodore F. Foss</h1></span></a>
+								<a href="index.html" title="To home"><h1><span id="site-title"></span></h1></a>
 							</div>
-						<!-- End navbar-brand-container -->
+							<!-- End navbar-brand-container -->
 						</div>
 
 					</div>
@@ -45,9 +45,15 @@
 					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 
 						<ul class="nav navbar-nav navbar-right">
-							<li class="active"><a href="index.html">About Me</a></li>
-							<li><a href="portfolio.html">My Projects</a></li>
-							<li><a href="contact.html">Contact Me</a></li>
+							<li class="active">
+								<a href="index.html" id="menu-about"></a>
+							</li>
+							<li>
+								<a href="portfolio.html" id="menu-portfolio"></a>
+							</li>
+							<li>
+								<a href="contact.html" id="menu-contact"></a>
+							</li>
 						</ul>
 					</div>
 					<!-- end .navbar-collapse -->
@@ -88,8 +94,8 @@
 							</figure>
 							<!-- About Me text -->
 							<section>
-								<h2>Mission Statement</h2>
-								<p>I make you nice website. You pay me.</p>
+								<h2 id="mission-statement-heading"></h2>
+								<p id="mission-statement-paragraph"></p>
 							</section>
 							<!--End jumbotron 2nd column-->
 						</div>
@@ -108,25 +114,13 @@
 				<!-- End social media -->
 			</div>
 
+			
+	
+
 		</main>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-		<!-- end .container -->
+		<!-- end container -->
+	</div>
+		
 		<!-- JavaScript Section -->
 		<script src="Scripts/lib/jquery-2.2.0.min.js"></script>
 		<script src="Scripts/lib/bootstrap.min.js"></script>
