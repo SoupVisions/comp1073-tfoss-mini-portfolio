@@ -14,7 +14,7 @@
 	<link rel="stylesheet" href="Content/app.css">
 </head>
 
-<body>
+<body id="contact">
 	<!-- container for entire page -->
 	<div class="container">
 		<header class="page-header">
@@ -73,29 +73,29 @@
 					<!-- contact form -->
 					<div class="form-wrapper">
 
-						<fieldset>
-							<form action="index.html" method="post">
+						<fieldset class="fieldset">
+							<form action="" method="">
 								<ol>
 									<li>
 										<label for="name">Name:</label>
 									</li>
 									<li>
-										<input id="name" name="name" required />
+										<input class ="form-input" id="name" name="name" required />
 									</li>
 									<li>
 										<label for="email">Email:</label>
 									</li>
 									<li>
-										<input id="email" name="email" type="email" required />
+										<input class ="form-input" id="email" name="email" type="email" required />
 									</li>
 									<li>
 										<label for="message">Message:</label>
 									</li>
 									<li>
-										<textarea id="message" name="message" rows="6" required></textarea>
+										<textarea class ="form-input" id="message" name="message" rows="6" required></textarea>
 									</li>
 									<li>
-										<button type="submit">Send</button>
+										<button id="submit" type="submit">Send</button>
 									</li>
 									<li>&nbsp;</li>
 									<li><a href="mailto:theodore.foss@mygeorgian.ca">theodore.foss@mygeorgian.ca</a>
@@ -126,7 +126,7 @@
 	<!-- JavaScript Section -->
 	<script src="Scripts/lib/jquery-2.2.0.min.js"></script>
 	<script src="Scripts/lib/bootstrap.min.js"></script>
-	<script src="Scripts/menu.js"></script>
+	<script src="Scripts/app.js"></script>
 </body>
 
 </html>
