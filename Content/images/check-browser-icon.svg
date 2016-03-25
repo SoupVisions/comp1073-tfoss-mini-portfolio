@@ -1,0 +1,55 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 623 562">
+  <defs>
+    <style>
+      .cls-1 {
+        font-size: 72px;
+        font-family: Nunito;
+      }
+
+      .cls-1, .cls-2, .cls-3 {
+        fill: #f2f5f5;
+      }
+
+      .cls-1, .cls-3 {
+        font-weight: 700;
+      }
+
+      .cls-2 {
+        stroke: #fff;
+        stroke-miterlimit: 10;
+        stroke-width: 2.44px;
+      }
+
+      .cls-3 {
+        font-size: 119.72px;
+        font-family: Raleway;
+      }
+    </style>
+  </defs>
+  <title>check-browser-icon</title>
+  <g>
+    <text class="cls-1" transform="translate(63 348) rotate(-92)">C</text>
+    <text class="cls-1" transform="translate(60 299) rotate(-81)">H</text>
+    <text class="cls-1" transform="translate(69 247) rotate(-70)">E</text>
+    <text class="cls-1" transform="matrix(0.51, -0.86, 0.86, 0.51, 83.01, 206.73)">C</text>
+    <text class="cls-1" transform="matrix(0.67, -0.75, 0.75, 0.67, 107.88, 164.23)">K</text>
+    <text class="cls-1" transform="translate(141 128) rotate(-40)"> </text>
+    <text class="cls-1" transform="matrix(0.85, -0.53, 0.53, 0.85, 156.77, 113.47)">B</text>
+    <text class="cls-1" transform="translate(198 87) rotate(-21)">R</text>
+    <text class="cls-1" transform="translate(243 69) rotate(-9)">O</text>
+    <text class="cls-1" transform="matrix(1, 0.07, -0.07, 1, 293.69, 59.49)">W</text>
+    <text class="cls-1" transform="matrix(0.95, 0.3, -0.3, 0.95, 364.02, 65.84)">S</text>
+    <text class="cls-1" transform="matrix(0.88, 0.47, -0.47, 0.88, 408.01, 79.73)">E</text>
+    <text class="cls-1" transform="translate(446 99) rotate(38)">R</text>
+    <text class="cls-1" transform="translate(484 131) rotate(46)"> </text>
+    <text class="cls-1" transform="translate(500 145) rotate(55)">G</text>
+    <text class="cls-1" transform="translate(530 189) rotate(66)">E</text>
+    <text class="cls-1" transform="translate(548 227) rotate(77)">A</text>
+    <text class="cls-1" transform="matrix(0.04, 1, -1, 0.04, 560.39, 276.46)">R</text>
+    <text class="cls-1" transform="matrix(-0.15, 0.99, -0.99, -0.15, 562.32, 324.73)">S</text>
+    <g id="framework-icon">
+      <path id="gear" class="cls-2" d="M467,241H442a7,7,0,0,1-6-5,164,164,0,0,0-20-48,7,7,0,0,1,1-8l17-17a7,7,0,0,0,0-9l-38-38a7,7,0,0,0-9,0l-17,17a7,7,0,0,1-8,1,164,164,0,0,0-48-20,7,7,0,0,1-5-6V82a7,7,0,0,0-7-7H248a7,7,0,0,0-7,7v25a7,7,0,0,1-5,6,164,164,0,0,0-48,20,7,7,0,0,1-8-1l-17-17a7,7,0,0,0-9,0l-38,38a7,7,0,0,0,0,9l17,17a7,7,0,0,1,1,8,164,164,0,0,0-20,48,7,7,0,0,1-6,5H83a7,7,0,0,0-7,7v53a7,7,0,0,0,7,7h25a7,7,0,0,1,6,5,164,164,0,0,0,20,48,7,7,0,0,1-1,8l-17,17a7,7,0,0,0,0,9l38,38a7,7,0,0,0,9,0l17-17a7,7,0,0,1,8-1,164,164,0,0,0,48,20,7,7,0,0,1,5,6v25a7,7,0,0,0,7,7h53a7,7,0,0,0,7-7V442a7,7,0,0,1,5-6,164,164,0,0,0,48-20,7,7,0,0,1,8,1l17,17a7,7,0,0,0,9,0l38-38a7,7,0,0,0,0-9l-17-17a7,7,0,0,1-1-8,164,164,0,0,0,20-48,7,7,0,0,1,6-5h25a7,7,0,0,0,7-7V247A7,7,0,0,0,467,241ZM275,408A132,132,0,1,1,407,275,132,132,0,0,1,275,408Z" transform="translate(37 37)"/>
+      <text class="cls-3" transform="translate(208 349)">&lt;/&gt;</text>
+    </g>
+  </g>
+</svg>

@@ -1,6 +1,5 @@
 "use strict";
 
-// IIFE (Immediately Invoked Function Expression) 
 (function () {
 
 	var about = document.getElementById("about");
@@ -24,7 +23,7 @@
 			{ item03: document.getElementById("menu-contact") }
 		];
 		menuItems[0].item01.innerHTML = "About Me";
-		menuItems[1].item02.innerHTML = "My Projects";
+		menuItems[1].item02.innerHTML = "Portfolio";
 		menuItems[2].item03.innerHTML = "Contact Me";
 	}
 	insertMenuItems();
@@ -35,31 +34,52 @@
 
 		console.log("About page");
 
-		function insertLead() {
-
-			var leadHeadingA = document.getElementById("lead-heading-a");
-			leadHeadingA.innerHTML = "100%";
-
-			var leadHeadingB = document.getElementById("lead-heading-b");
-			leadHeadingB.innerHTML = "Unnatural";
+		function insertAboutMePageHeading() {
+			var aboutMePageHeading = document.getElementById("about-heading");
+			aboutMePageHeading.innerHTML = "About Me";
 		}
-		insertLead();
+		insertAboutMePageHeading();
+		
+		function insertGoals() {
 
-		function insertMissionStatement() {
+			var goalsHeading = document.getElementById("goals-heading");
+			goalsHeading.innerHTML = "My Goals";
 
-			var missionStatementHeading = document.getElementById("mission-statement-heading");
-			missionStatementHeading.innerHTML = "Mission Statement";
-
-			var missionStatement = document.getElementById("mission-statement-paragraph");
-			missionStatement.innerHTML = "I make you a nice website. You pay me.";
+			var goalsList = document.getElementById("goals-paragraph");
+			goalsList.innerHTML = "<ol>" + 
+																			"<li>" + "* Avoid month-old lasagna in fridge (eat three-day old french fries instead)" + "</li>" +
+																			"<li>" + "* Look outside once in a while" + "</li>" +
+																			"<li>" + "* Submit COMP1073 project before midnight" + "</li>" +
+																   "</ol>";
 		}
-		insertMissionStatement();
+		insertGoals();
 		
 		/* Portfolio Page
 		================= */
 	} else if (portfolio != null) {
 
 		console.log("Portfolio page");
+		
+		function insertPortfolioPageHeading() {
+		
+		var portfolioPageHeading = document.getElementById("portfolio-heading");
+		portfolioPageHeading.innerHTML = "Portfolio";
+		
+	}
+	insertPortfolioPageHeading();
+	
+	function insertProjectTitles() {
+		
+		var project01_Title = document.getElementById("website01-title");
+		project01_Title.innerHTML = "GWV Law Group";
+		var project02_Title = document.getElementById("website02-title");
+		project02_Title.innerHTML = "Mondrian Table";
+		var project03_Title = document.getElementById("website03-title");
+		project03_Title.innerHTML = "Retro Product Minisite";
+		var project04_Title = document.getElementById("website04-title");
+		project04_Title.innerHTML = "Movie Poster";
+	}
+	insertProjectTitles();
 		
 	
 		/* Contact Page
@@ -80,12 +100,8 @@
 			console.log("Email: " + email.value);
 			console.log("Message: " + message.value);
 		})
-
 	} // end else if
-
-
-
-})(); //end IIFE
+})(); 
 
 
 
