@@ -44,7 +44,7 @@
 		function insertGoals() {
 
 			var goalsHeading = document.getElementById("goals-heading");
-			goalsHeading.innerHTML = "My Goals";
+			goalsHeading.innerHTML = "My Mission";
 
 			var goalsList = document.getElementById("goals-paragraph");
 			goalsList.innerHTML = "<ol>" + 

@@ -23,7 +23,8 @@
 		// loop through the paragraphs array
 		for(var i = 0; i < paragraphsLength; i++) {
 			// create a reference to each html paragraph element
-			var paragraph = document.getElementById("project" + (i + 1) + "-paragraph");
+			var paraId = "project" + 0 + (i + 1) + "-paragraph";
+			var paragraph = document.getElementById(paraId);
 			paragraph.innerHTML = paragraphs[i];
 			console.log(paragraph);
 		} // end for loop

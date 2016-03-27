@@ -1,12 +1,24 @@
 {
 	"paragraphs" : [
 		
-		"Did you come here for something in particular or just general Riker-bashing? I'll alert the crew. I've had twelve years to think about it. And if I had it to do over again, I would have grabbed the phaser and pointed it at you instead of them. Our neural pathways have become accustomed to your sensory input patterns.",
+		"HTML/CSS | JavaScript &amp; JQuery | Photoshop | Illusrator | Wordpress<br>&middot; My first professional website. Created a Wordpress child theme for the blog section.",
 		
-		"Your head is not an artifact! That might've been one of the shortest assignments in the history of Starfleet. The game's not big enough unless it scares you a little. What's a knock-out like you doing in a computer-generated gin joint like this?",
+		"HTML/CSS Table<br>&middot; <a class=\"preview-link\" href=\"http://www.wikiart.org/en/piet-mondrian/composition-with-large-red-plane-yellow-black-gray-and-blue-1921\" title=\"Original Mondrian Composition\">Original Mondrian painting</a> recreated using an HTML table styled with CSS (no images).",
 		
-		"The game's not big enough unless it scares you a little. The Federation's gone; the Borg is everywhere! In all trust, there is the possibility for betrayal. Flair is what marks the difference between artistry and mere competence. I can't. As much as I care about you, my first duty is to the ship.",
+		"HTML/CSS | Illustrator<br>&middot Tells the story of the Illustrious Antikythera Mechanism. Contains a small Infographic I created in Illustrator, and a few CSS transform/transition animations.",
 		
-		"When has justice ever been as simple as a rule book? Then maybe you should consider this: if anything happens to them, Starfleet is going to want a full investigation. What? We're not at all alike! I can't. As much as I care about you, my first duty is to the ship. Why don't we just give everybody a promotion and call it a night - 'Commander'?"
+		"HTML/CSS<br>&middot; Webpage recreation of an old movie poster. Stripped all images with text from a movie poster, and then superimposed the same text using HTML and CSS.",
+		
+		"Illustrator to HTML/CSS mock-up of a one-page portfolio site: my coded and responsive rendering of<a class=\"preview-link\" href=\"Content/images/mark-anthony-mockup.jpg\" title=\"Mark-Anthony Karam Mock-up\"> this original jpg image</a>, submitted to me by graphic designer Mark-Anthony Karam.",
+		
+		"HTML/CSS<br>&middot Took the Wikipedia entry on Jeremy Bentham and played with the fonts and typography.",
+		
+		"This is my rendition of the first website ever put on the Internet. <a class=\"preview-link\" href=\"http://info.cern.ch/hypertext/WWW/TheProject.html\" title=\"The World's First Website\">Find the actual (original) site here</a>, for comparison.",
+		
+		"Illustrator | HTML/CSS | JQuery<br>&middot; An alternative version of my logo that I created in Illustrator, exported as an SVG and animated using CSS and jQuery. I think it came out looking super cool",
+		
+		"HTML/CSS | Bootstrap | Illustrator | Photoshop<br>&middot; Landing page for a heating and air conditioning company in Barrie, Ontario. I created the assets for the company's Facebook page as well."
+		
+		
 	]
 }
