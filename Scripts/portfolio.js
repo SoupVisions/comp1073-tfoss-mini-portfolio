@@ -12,15 +12,24 @@
 		var portfolio = {};
 		// read in the JSON object from the JSON file
 		portfolio = JSON.parse(request.responseText);
-		// declare paragraph array container
+		// declare paragraphs array container
 		var paragraphs = [];
 		// read in the paragraphs array from the JSON file
 		paragraphs = portfolio.paragraphs;
 		
-		} // end request.readyState function name(params) {
+		// store length of the paragraphs array into a variable	
+		var paragraphsLength = paragraphs.length;
+		
+		// loop through the paragraphs array
+		for(var i = 0; i < paragraphsLength; i++) {
+			// create a reference to each html paragraph element
+			var paragraph = document.getElementById("project" + (i + 1) + "-paragraph");
+			paragraph.innerHTML = paragraphs[i];
+			console.log(paragraph);
+		} // end for loop
 			
-			console.log(portfolio);
-			
+
+		} // end request.readyState function 
 
 	}) // end addEventListener and anon function
 	request.send();
