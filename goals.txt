@@ -1,0 +1,9 @@
+{
+	"goals": ["My Goals", "Avoid month-old lasagna in fridge, eat three-day-old french fries instead",  "Look outside once in a while", "Submit COMP1073 assignment before midnight"]
+}
+
+
+	"title": "My Goals",
+	"goal01": "Avoid month-old lasagna in fridge, eat three-day-old french fries instead",
+	"goal02": "Look outside once in a while",
+	"goal03": "Submit COMP1073 assignment before midnight"

@@ -1,0 +1,71 @@
+<svg id="Layer_1" class="yanch-svg" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 164.31 248.88" width="300" height="300">
+  <defs>
+    <style>
+	  .yanch-svg {
+		background-color: rgb(233,239,228); 
+	  }	
+		
+      .cls-1 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-2 {
+        fill: url(#New_Gradient_Swatch_copy);
+      }
+
+      .cls-3 {
+        fill: url(#New_Gradient_Swatch_copy_2);
+      }
+
+      .cls-4 {
+        fill: url(#linear-gradient-2);
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="82.56" y1="326.35" x2="82.56" y2="27.95" gradientUnits="userSpaceOnUse">
+      <stop offset="0.01" stop-color="#1c3e93"/>
+      <stop offset="0.26" stop-color="#1c3e93"/>
+      <stop offset="0.9" stop-color="#1c3e93"/>
+      <stop offset="1" stop-color="#1c3e93"/>
+    </linearGradient>
+    <linearGradient id="New_Gradient_Swatch_copy" data-name="New Gradient Swatch copy" x1="164.72" y1="326.35" x2="164.72" y2="27.96" gradientUnits="userSpaceOnUse">
+      <stop offset="0.01" stop-color="#1c3e93"/>
+      <stop offset="0.37" stop-color="#1c3e93"/>
+      <stop offset="0.43" stop-color="#224396"/>
+      <stop offset="0.52" stop-color="#35539f"/>
+      <stop offset="0.62" stop-color="#526cad"/>
+      <stop offset="0.73" stop-color="#7c8fc0"/>
+      <stop offset="0.85" stop-color="#b1bcda"/>
+      <stop offset="0.97" stop-color="#f0f3f8"/>
+      <stop offset="1" stop-color="#fff"/>
+    </linearGradient>
+    <linearGradient id="New_Gradient_Swatch_copy_2" data-name="New Gradient Swatch copy 2" x1="111.56" y1="-23.83" x2="111.56" y2="308.05" gradientUnits="userSpaceOnUse">
+      <stop offset="0.23" stop-color="#fe0"/>
+      <stop offset="0.28" stop-color="#fee601"/>
+      <stop offset="0.36" stop-color="#fccf05"/>
+      <stop offset="0.46" stop-color="#f9ab0c"/>
+      <stop offset="0.58" stop-color="#f47814"/>
+      <stop offset="0.7" stop-color="#ef381f"/>
+      <stop offset="0.76" stop-color="#ec1c24"/>
+      <stop offset="0.99" stop-color="#ec1c24"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="151.47" y1="134.22" x2="223.78" y2="6.15" gradientTransform="matrix(1.14, -0.12, 0.1, 0.99, -90.1, 40.49)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fe0"/>
+      <stop offset="0.09" stop-color="#fee601"/>
+      <stop offset="0.24" stop-color="#fccf05"/>
+      <stop offset="0.42" stop-color="#f9ab0c"/>
+      <stop offset="0.62" stop-color="#f47814"/>
+      <stop offset="0.85" stop-color="#ef381f"/>
+      <stop offset="0.94" stop-color="#ec1c24"/>
+      <stop offset="0.99" stop-color="#ec1c24"/>
+    </linearGradient>
+  </defs>
+  <title>yanch-flames</title>
+  <g id="blue-flames-grouped">
+    <path id="blueflame-left" class="cls-1" d="M116.65,1.12S123.35,53.84,77,88.49c0,0-60.94,52.87-24.22,107.19,0,0,8.82,23.49,47.73,42.57,0,0-69-49.19-12.49-110.12C88,128.13,143.81,73.06,116.65,1.12Z" transform="translate(-41.01 -1.12)"/>
+    <path id="blueflame-right" class="cls-2" d="M131.57,35.63s8.42,57.54,39.63,79c0,0,56.32,46.58,24.24,96.91,0,0-8.82,21.24-47.73,38.49,0,0,69-44.47,12.49-99.56C160.2,150.44,104.4,100.68,131.57,35.63Z" transform="translate(-41.01 -1.12)"/>
+  </g>
+  <path id="yellow-flame" class="cls-3" d="M145.65,12.87S153.1,62.6,106,100.23c0,0-60.93,52.86-24.22,107.19,0,0,8.82,23.48,47.72,42.58,0,0-69-49.19-12.49-110.13C117,139.87,172.81,84.82,145.65,12.87Z" transform="translate(-41.01 -1.12)"/>
+  <g id="red-blaze-grouped">
+    <path id="red-blaze" class="cls-4" d="M140.86,98.31c6.69-18,13.64-41.93,8.47-65.64l-1-5c0.94,0.24-5.8,44.24-31.27,74.44l9.12-10.76c14.56-17.81,20.26-38.68,22.51-49.92,2.06,18.38-3.14,39.4-6.67,53.46Z" transform="translate(-41.01 -1.12)"/>
+  </g>
+</svg>

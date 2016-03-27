@@ -1,11 +1,12 @@
-"use strict";
-
-(function () {
+//IIFE
+(function() {
+	
+	"use strict";
 
 	var about = document.getElementById("about");
 	var portfolio = document.getElementById("portfolio");
 	var contact = document.getElementById("contact");
-	
+
 	/* Header/Consistent Nav
 	======================== */
 	function insertSiteTitle() {
@@ -27,9 +28,9 @@
 		menuItems[2].item03.innerHTML = "Contact Me";
 	}
 	insertMenuItems();
-	
-	/* About Me Page
-	================= */
+
+// 	/* About Me Page
+// 	================= */
 	if (about != null) {
 
 		console.log("About page");
@@ -39,7 +40,7 @@
 			aboutMePageHeading.innerHTML = "About Me";
 		}
 		insertAboutMePageHeading();
-		
+
 		function insertGoals() {
 
 			var goalsHeading = document.getElementById("goals-heading");
@@ -53,23 +54,23 @@
 																   "</ol>";
 		}
 		insertGoals();
-		
-		/* Portfolio Page
-		================= */
+
+// 		/* Portfolio Page
+// 		================= */
 	} else if (portfolio != null) {
 
 		console.log("Portfolio page");
-		
+
 		function insertPortfolioPageHeading() {
-		
+
 		var portfolioPageHeading = document.getElementById("portfolio-heading");
 		portfolioPageHeading.innerHTML = "Portfolio";
-		
+
 	}
 	insertPortfolioPageHeading();
-	
+
 	function insertProjectTitles() {
-		
+
 		var project01_Title = document.getElementById("website01-title");
 		project01_Title.innerHTML = "GWV Law Group";
 		var project02_Title = document.getElementById("website02-title");
@@ -80,14 +81,14 @@
 		project04_Title.innerHTML = "Movie Poster";
 	}
 	insertProjectTitles();
-		
-	
-		/* Contact Page
-		================= */
+
+
+// 		/* Contact Page
+// 		================= */
 	} else if (contact != null) {
 
 		console.log("Contact page");
-		
+
 		var name = document.getElementById("name");	
 		var email = document.getElementById("email");
 		var message = document.getElementById("message");
@@ -102,9 +103,3 @@
 		})
 	} // end else if
 })(); 
-
-
-
-
-
- 

@@ -185,7 +185,7 @@ ul li.active {
 	transform: rotate(1deg) translateY(2px) skewY(1deg);
 }
 
-.jumbotron section h2 {
+.jumbotron section h2#goals-heading {
 	font-family: 'Bahiana', helevetica, sans-serif;
 	font-size: 4em;
 	padding-top: 28px;
