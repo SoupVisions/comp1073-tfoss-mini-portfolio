@@ -1,0 +1,21 @@
+{
+  "name": "comp1073-tfoss-mini-portfolio",
+  "homepage": "https://github.com/SoupVisions/comp1073-tfoss-mini-portfolio",
+  "authors": [
+    "Theodore Foss <fritzfoss@hotmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "Scripts/lib",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^2.2.3"
+  }
+}
