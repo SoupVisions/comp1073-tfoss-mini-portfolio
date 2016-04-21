@@ -571,9 +571,14 @@ footer .check-browser-icon {
 	  }
 		 
 		 @media (max-width: 480px) {
+			 
+			 canvas {
+				width: 90%;
+			}
+			 
 			 .jumbotron figure 	{
 				width: 80%;	
-		 }
+		 	}
 	 
 	
 }
