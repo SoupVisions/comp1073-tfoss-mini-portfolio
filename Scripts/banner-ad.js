@@ -28,7 +28,6 @@
 	
 	// on every tick the stage is redrawn/refreshed
 	function motionLoop() {
-		console.log('next frame');
 		stage.update();
 	};
 	
