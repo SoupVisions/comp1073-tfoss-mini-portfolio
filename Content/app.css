@@ -204,6 +204,19 @@ ul li.active {
 	
 }
 /* End jumbotron */
+
+/* canvas */
+canvas {
+	border: 3px solid rgba(137,51,21, 0.15);
+	display: block;
+	width: 468px;
+	height: 60px;
+	margin: 0 auto 40px;
+}
+/* end canvas */
+
+
+
 /* End About Me Page */
 
 
