@@ -8,6 +8,10 @@
 	// declare global variables
 	var canvas;
 	var stage;
+	var portfolioLabel;
+	var portfolioLabelMove = 2;
+	var screenWidth = window.innerWidth * 0.25;
+	
 	
 	function init() {
 		
@@ -26,8 +30,6 @@
 	// create an object for the stage and reference it by assigning it a variable
 	stage = new createjs.Stage(canvas);
 	
-	// declare portfolioLabel
-	var portfolioLabel = null;
 	// set up frame rate (create a ticker for how many frames per second)
 	// (ticker is a built-in global object in createjs)
 	// set framerate to 60 frames per second:
@@ -42,8 +44,11 @@
 	// on every tick motionLoop runs
 	function motionLoop() {
 		
-		portfolioLabel.scaleX += 0.001;
-		portfolioLabel.scaleY += 0.001;
+		portfolioLabel.rotation += 1;
+		portfolioLabel.x += portfolioLabelMove;
+		if ((portfolioLabel.x >= screenWidth) || (portfolioLabel.x <= screenWidth)) {
+			portfolioLabelMove *= -0.1;
+		}
 		
 		// page redrawn/reset
 		stage.update();
@@ -52,14 +57,19 @@
 	// define the stageMagic function, where all the magic happens
 	function stageMagic() {
 		//create object
-		portfolioLabel = new createjs.Text("Portfolio", "30px Consolas", "limegreen");
+		portfolioLabel = new createjs.Text("Check Out My Portfolio", "30px bahiana-regular", "#893315");
 		// set x and y coordinates for the portfolioLabel
 		portfolioLabel.regX = portfolioLabel.getMeasuredWidth() * 0.5;
 		portfolioLabel.regY = portfolioLabel.getMeasuredHeight() * 0.5;
-		portfolioLabel.x = window.innerWidth * 0.15;
-		portfolioLabel.y = 30;
+		portfolioLabel.x = screenWidth * 0.5;
+		portfolioLabel.y = 25;
 		// add object to the stage
 		stage.addChild(portfolioLabel);
+		
+		
+		$('canvas').on("click", function() {
+			portfolioLabel.text = "Whoa!";	
+		}); // end portfolioLabel on click event/function
 		
 	}; // end stageMagic function
 	
