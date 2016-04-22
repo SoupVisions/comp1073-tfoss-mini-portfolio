@@ -11,7 +11,8 @@
 	var portfolioLabel;
 	var portfolioLabelMove = 2;
 	var screenWidth = window.innerWidth * 0.25;
-	
+	var toiletMonster;
+	var toiletMonsterMove = 5;
 	
 	function init() {
 		
@@ -46,8 +47,10 @@
 		
 		portfolioLabel.rotation += 1;
 		portfolioLabel.x += portfolioLabelMove;
+		toiletMonster.x += toiletMonsterMove;
 		if ((portfolioLabel.x >= screenWidth) || (portfolioLabel.x <= screenWidth)) {
 			portfolioLabelMove *= -0.1;
+			toiletMonsterMove *= +0.05;
 		}
 		
 		// page redrawn/reset
@@ -56,6 +59,17 @@
 	
 	// define the stageMagic function, where all the magic happens
 	function stageMagic() {
+		// create object
+		toiletMonster = new createjs.Bitmap("Content/images/toiletmonster.png");
+		toiletMonster.regX = toiletMonster.getBounds().width * 0.5;
+		toiletMonster.regY = toiletMonster.getBounds().height * 0.5;
+		toiletMonster.scaleX = 0.5;
+		toiletMonster.scaleY = 0.5;
+		toiletMonster.x = screenWidth * 0.3;
+		toiletMonster.y = 30;
+		// add object to stage 
+		stage.addChild(toiletMonster);
+		
 		//create object
 		portfolioLabel = new createjs.Text("Check Out My Portfolio", "30px bahiana-regular", "#893315");
 		// set x and y coordinates for the portfolioLabel
